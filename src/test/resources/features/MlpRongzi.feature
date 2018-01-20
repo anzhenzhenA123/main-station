@@ -30,3 +30,10 @@
     并且 成功进入M站测评页面
     那么 成功进入到M站测评结果页
 
+  场景: 1产evaluate着陆页
+    假如 我在evaluate着陆页首页"http://mlp.rongzi.com/lp/bu1/evaluate"
+    当 输入evaluate着陆页信息
+    并且 成功进入M站测评页面
+    那么 成功进入到M站测评结果页
+
+
