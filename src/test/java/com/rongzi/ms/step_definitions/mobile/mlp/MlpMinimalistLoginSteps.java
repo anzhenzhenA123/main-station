@@ -1,6 +1,6 @@
-package com.rongzi.ms.step_definitions.mobile;
+package com.rongzi.ms.step_definitions.mobile.mlp;
 
-import com.rongzi.ms.pageobjects.mobile.MlpMinimalistLoginPage;
+import com.rongzi.ms.pageobjects.mobile.mlp.MlpMinimalistLoginPage;
 import com.rongzi.ms.step_definitions.StepDefs;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;

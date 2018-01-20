@@ -1,6 +1,6 @@
-package com.rongzi.ms.step_definitions.mobile;
+package com.rongzi.ms.step_definitions.mobile.mlp;
 
-import com.rongzi.ms.pageobjects.mobile.MlpCepingLoginPage;
+import com.rongzi.ms.pageobjects.mobile.mlp.MlpCepingLoginPage;
 import com.rongzi.ms.step_definitions.StepDefs;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;

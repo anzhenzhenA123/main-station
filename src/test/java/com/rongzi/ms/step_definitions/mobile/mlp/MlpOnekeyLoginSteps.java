@@ -1,8 +1,7 @@
-package com.rongzi.ms.step_definitions.mobile;
+package com.rongzi.ms.step_definitions.mobile.mlp;
 
-import com.rongzi.ms.pageobjects.mobile.MlpOnekeyLoginPage;
+import com.rongzi.ms.pageobjects.mobile.mlp.MlpOnekeyLoginPage;
 import com.rongzi.ms.step_definitions.StepDefs;
-import cucumber.api.PendingException;
 import org.openqa.selenium.support.PageFactory;
 
 public class MlpOnekeyLoginSteps extends StepDefs{

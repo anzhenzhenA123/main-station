@@ -1,4 +1,4 @@
-package com.rongzi.ms.pageobjects.mobile;
+package com.rongzi.ms.pageobjects.mobile.mlp;
 
 import com.rongzi.ms.pageobjects.BaseClass;
 import org.openqa.selenium.WebDriver;
