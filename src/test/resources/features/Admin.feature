@@ -87,7 +87,7 @@
     同时 单击确定按钮提交
 
   @custom_reqirement_auditing
-  场景: admin页面
+  场景: admin质检融资需求书页面
     假如 我admin登陆页"http://admin.rongzi.com"
     并且 输入登录信息
     同时 单击登陆按钮
@@ -97,6 +97,10 @@
     同时 输入融资人用户手机号
     并且 单击查询按钮
     那么 拨打客服电话
+    并且 单击电审按钮
+    那么 成功转跳到个人中心页面
+    同时 编辑需求书基本信息
+    并且 进行打标签操作
 
   @please_logout
   场景: 登出admin
