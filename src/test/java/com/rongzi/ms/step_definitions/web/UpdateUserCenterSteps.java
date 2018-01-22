@@ -3,7 +3,6 @@ package com.rongzi.ms.step_definitions.web;
 import com.rongzi.ms.helpers.Log;
 import com.rongzi.ms.step_definitions.StepDefs;
 import com.rongzi.ms.pageobjects.web.UserCenterPage;
-import cucumber.api.PendingException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
