@@ -44,6 +44,14 @@ public class AdminCusrequireSteps extends StepDefs {
    public void 拨打客服电话() throws Throwable {
        wait.until(ExpectedConditions.visibilityOf(AdminCustomRequirePage.data_recordid.get(0)));
        AdminCustomRequirePage.call_btn.click();
+       wait.until(ExpectedConditions.visibilityOf(AdminCustomRequirePage.dialog_box));
+       wait.until(ExpectedConditions.elementToBeClickable(AdminCustomRequirePage.dial)).click();
+       Thread.sleep(1000 * 2);
    }
 
+    @cucumber.api.java.zh_cn.并且("^单击电审按钮$")
+    public void 单击电审按钮() throws Throwable {
+        AdminCustomRequirePage.auditing.click();
+        Thread.sleep(1000 * 2);
+    }
 }
