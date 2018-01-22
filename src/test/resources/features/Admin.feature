@@ -9,6 +9,16 @@
     同时 单击登陆按钮
     那么 登陆成功
 
+
+  @admin_please_logout
+  场景: 登出admin
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 退出登陆
+    那么 返回登陆页面
+
   @admin_userinfo_search
   场景: admin用户信息页面
     假如 我admin登陆页"http://admin.rongzi.com"
@@ -21,7 +31,7 @@
     并且 单击查询
 
   @admin_register_source_statistic
-  场景: admin页面
+  场景: admin注册来源统计页面
     假如 我admin登陆页"http://admin.rongzi.com"
     并且 输入登录信息
     同时 单击登陆按钮
@@ -29,17 +39,6 @@
     同时 点击数据统计下注册来源统计
     那么 进入注册来源统计页面
     并且 点击注册来源统计页面搜索按钮
-
-  @admin_userinfo_search
-  场景: admin页面
-    假如 我admin登陆页"http://admin.rongzi.com"
-    并且 输入登录信息
-    同时 单击登陆按钮
-    那么 进入admin页面
-    并且 点击用户管理
-    那么 进入用户信息页面
-    同时 输入手机号
-    并且 单击查询
 
   @admin_market_config_search
   场景: admin市场配置来源信息页面
@@ -102,14 +101,6 @@
     同时 编辑需求书基本信息
     并且 进行打标签操作
 
-  @admin_please_logout
-  场景: 登出admin
-    假如 我admin登陆页"http://admin.rongzi.com"
-    并且 输入登录信息
-    同时 单击登陆按钮
-    那么 进入admin页面
-    并且 退出登陆
-    那么 返回登陆页面
 
 
 
