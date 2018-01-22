@@ -14,7 +14,7 @@ public class AdminLoginPage extends BaseClass {
         super(driver);
     }
 
-  @FindBy(how = How.XPATH, using = "//*[@id=\"userName\"]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"userName\"]")
     public static WebElement user_name;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"userPwd\"]")
