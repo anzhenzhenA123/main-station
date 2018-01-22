@@ -15,7 +15,7 @@ public class AdminLoginPage extends BaseClass {
     }
 
   @FindBy(how = How.XPATH, using = "//*[@id=\"userName\"]")
-    public static WebElement username;
+    public static WebElement user_name;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"userPwd\"]")
     public static WebElement password;
