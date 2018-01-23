@@ -30,6 +30,18 @@
     同时 输入手机号
     并且 单击查询
 
+  @admin_userinfo_add_custom
+  场景: admin用户信息页面
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 点击用户管理
+    那么 进入用户信息页面
+    同时 单击新增用户按钮
+    那么 出现新增用户窗口
+    并且 输入新增用户信息
+
   @admin_register_source_statistic
   场景: admin注册来源统计页面
     假如 我admin登陆页"http://admin.rongzi.com"
@@ -60,7 +72,6 @@
     并且 点击权限管理下新增用户
     那么 进入新增用户页面
     并且 输入用户信息
-    同时 单击确定按钮新增用户
 
   @admin_market_config_edit_user
   场景: admin权限管理下权限分配页面编辑用户

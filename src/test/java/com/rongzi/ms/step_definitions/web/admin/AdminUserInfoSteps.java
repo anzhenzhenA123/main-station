@@ -43,4 +43,9 @@ public class AdminUserInfoSteps extends StepDefs {
     public void 单击查询() throws Throwable {
         wait.until(ExpectedConditions.elementToBeClickable(AdminUserInfoPage.search)).click();
     }
+
+    @cucumber.api.java.zh_cn.同时("^单击新增用户按钮$")
+    public void 单击新增用户按钮() throws Throwable {
+        wait.until(ExpectedConditions.elementToBeClickable(AdminUserInfoPage.add_user)).click();
+    }
 }
