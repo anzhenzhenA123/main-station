@@ -63,6 +63,18 @@
     并且 清空搜索栏并输入来源名称
     同时 单击搜索进行查询
 
+  @admin_market_config_add_register_source
+  场景: admin市场配置来源信息页面
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 点击市场配置来源信息
+    那么 进入来源信息页面
+    同时 单击新增来源按钮
+    那么 出现新增来源对话框
+    同时 输入信息并单击确定按钮
+
   @admin_market_config_add_user
   场景: admin权限管理下新增用户页面
     假如 我admin登陆页"http://admin.rongzi.com"

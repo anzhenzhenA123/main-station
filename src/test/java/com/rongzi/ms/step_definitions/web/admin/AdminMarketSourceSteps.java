@@ -3,7 +3,6 @@ package com.rongzi.ms.step_definitions.web.admin;
 import com.rongzi.ms.pageobjects.web.admin.AdminMarketSourcePage;
 import com.rongzi.ms.pageobjects.web.admin.AdminPage;
 import com.rongzi.ms.step_definitions.StepDefs;
-import cucumber.api.PendingException;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -35,5 +34,10 @@ public class AdminMarketSourceSteps extends StepDefs {
     @cucumber.api.java.zh_cn.同时("^单击搜索进行查询$")
     public void 单击搜索进行查询() throws Throwable {
         wait.until(ExpectedConditions.elementToBeClickable(AdminMarketSourcePage.search)).click();
+    }
+
+    @cucumber.api.java.zh_cn.同时("^单击新增来源按钮$")
+    public void 单击新增来源按钮() throws Throwable {
+        wait.until(ExpectedConditions.elementToBeClickable(AdminMarketSourcePage.add_register_source)).click();
     }
 }
