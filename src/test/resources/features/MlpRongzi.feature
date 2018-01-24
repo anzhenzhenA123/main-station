@@ -1,5 +1,5 @@
 # language: zh-CN
-@mlp
+@mobile_mlp
 功能: 登陆东方融资网mlp着陆页
 
 

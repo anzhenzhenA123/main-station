@@ -203,7 +203,7 @@ Cucumber 是以 feature 文件来组织测试的,所以采用 feature 这个后�
 *   测试mlp着陆页
 
 ```
-    mvn clean verify -Dwebdriver=android  -Dcucumber.options="--tags @mlp"
+    mvn clean verify -Dwebdriver=android  -Dcucumber.options="--tags @mobile_mlp"
     
 ```
 
