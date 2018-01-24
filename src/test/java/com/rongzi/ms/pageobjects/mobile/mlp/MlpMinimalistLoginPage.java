@@ -12,8 +12,6 @@ public class MlpMinimalistLoginPage extends BaseClass {
 	{
 		super(driver);
 	}
-	@FindBy(how=How.XPATH, using="//*[@id=\"app\"]/div/div/div[1]/div[1]/div[2]/span")
-	public static WebElement city;
 
 	@FindBy(how=How.XPATH, using="//*[@id=\"app\"]/div/div/div[1]/div[2]/div/div[2]/input")
 	public static WebElement username;
@@ -34,7 +32,7 @@ public class MlpMinimalistLoginPage extends BaseClass {
 
 
 
-		@FindBy(how=How.XPATH, using="//*[@id=\"app\"]/div/div/div[2]/div/ul[1]/li[3]/a")
+		@FindBy(how=How.XPATH, using="//*[@id=\"landing-jijian\"]/div[2]/div/ul[1]/li[3]/a")
 		public static WebElement city;
 
 
