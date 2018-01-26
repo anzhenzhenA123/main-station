@@ -9,6 +9,16 @@
     同时 单击登陆按钮
     那么 登陆成功
 
+
+  @admin_please_logout
+  场景: 登出admin
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 退出登陆
+    那么 返回登陆页面
+
   @admin_userinfo_search
   场景: admin用户信息页面
     假如 我admin登陆页"http://admin.rongzi.com"
@@ -20,8 +30,20 @@
     同时 输入手机号
     并且 单击查询
 
+  @admin_userinfo_add_custom
+  场景: admin用户信息页面
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 点击用户管理
+    那么 进入用户信息页面
+    同时 单击新增用户按钮
+    那么 出现新增用户窗口
+    并且 输入新增用户信息
+
   @admin_register_source_statistic
-  场景: admin页面
+  场景: admin注册来源统计页面
     假如 我admin登陆页"http://admin.rongzi.com"
     并且 输入登录信息
     同时 单击登陆按钮
@@ -29,17 +51,6 @@
     同时 点击数据统计下注册来源统计
     那么 进入注册来源统计页面
     并且 点击注册来源统计页面搜索按钮
-
-  @admin_userinfo_search
-  场景: admin页面
-    假如 我admin登陆页"http://admin.rongzi.com"
-    并且 输入登录信息
-    同时 单击登陆按钮
-    那么 进入admin页面
-    并且 点击用户管理
-    那么 进入用户信息页面
-    同时 输入手机号
-    并且 单击查询
 
   @admin_market_config_search
   场景: admin市场配置来源信息页面
@@ -52,6 +63,18 @@
     并且 清空搜索栏并输入来源名称
     同时 单击搜索进行查询
 
+  @admin_market_config_add_register_source
+  场景: admin市场配置来源信息页面
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 点击市场配置来源信息
+    那么 进入来源信息页面
+    同时 单击新增来源按钮
+    那么 出现新增来源对话框
+    同时 输入信息并单击确定按钮
+
   @admin_market_config_add_user
   场景: admin权限管理下新增用户页面
     假如 我admin登陆页"http://admin.rongzi.com"
@@ -61,7 +84,6 @@
     并且 点击权限管理下新增用户
     那么 进入新增用户页面
     并且 输入用户信息
-    同时 单击确定按钮新增用户
 
   @admin_market_config_edit_user
   场景: admin权限管理下权限分配页面编辑用户
@@ -102,14 +124,6 @@
     同时 编辑需求书基本信息
     并且 进行打标签操作
 
-  @admin_please_logout
-  场景: 登出admin
-    假如 我admin登陆页"http://admin.rongzi.com"
-    并且 输入登录信息
-    同时 单击登陆按钮
-    那么 进入admin页面
-    并且 退出登陆
-    那么 返回登陆页面
 
 
 
