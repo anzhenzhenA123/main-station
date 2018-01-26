@@ -1,6 +1,7 @@
 package com.rongzi.ms.step_definitions;
 
 import com.rongzi.ms.pageobjects.web.VerifyCodePage;
+import com.rongzi.ms.pageobjects.web.admin.AdminPage;
 import cucumber.api.java.zh_cn.并且;
 import cucumber.api.java.zh_cn.那么;
 import org.openqa.selenium.support.PageFactory;
@@ -25,6 +26,8 @@ public class VerifyCodeSteps extends StepDefs {
 
     @并且("^我点击提交验证码$")
     public void 我点击提交验证码() throws Throwable {
-        VerifyCodePage.submit.click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(VerifyCodePage.submit)).click();
+
     }
 }
