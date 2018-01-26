@@ -17,7 +17,7 @@ node {
     stage('automation tests') {
 
         //run your build
-        sh './mvnw clean verify -Dcucumber.options="--tags @mobile" -Dwebdriver=ios -Dremote.hub=http://zalenium:4444/wd/hub'
+        sh './mvnw clean verify -Dcucumber.options="--tags @mobile_mlp" -Dwebdriver=android -Drongzi.city=上海 -Dremote.hub=http://zalenium:4444/wd/hub'
         //generate cucumber reports
         cucumber '**/cucumber.json'
 
