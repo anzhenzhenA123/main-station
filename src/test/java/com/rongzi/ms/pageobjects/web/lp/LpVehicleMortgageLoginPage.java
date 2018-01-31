@@ -22,7 +22,7 @@ public class LpVehicleMortgageLoginPage extends BaseClass {
 	@FindBy(how=How.XPATH, using="//*[@id=\"btn_submit\"]")
 	public static WebElement submit;
 
-	@FindBy(how=How.XPATH, using="//a[@href=\"/quicktest/index\"][1]")
+	@FindBy(how=How.XPATH, using="/html/body/div[2]/section[2]/div/a")
 	public static WebElement view_details;
 
 
