@@ -28,9 +28,8 @@ public class AdminSteps extends StepDefs {
         AdminPage.log_out.click();
     }
 
-    @cucumber.api.java.zh_cn.那么("^返回登陆页面$")
-    public void 返回登陆页面() throws Throwable {
-        Assert.assertTrue(driver.getCurrentUrl().matches("http://admin.rongzi.com/User/Login"));
+    @cucumber.api.java.zh_cn.那么("^返回登陆页面\"([^\"]*)\"$")
+    public void 返回登陆页面(String AdminLoginUrl) throws Throwable {
+        Assert.assertTrue(driver.getCurrentUrl().matches(AdminLoginUrl));
     }
-
 }

@@ -17,7 +17,7 @@
     同时 单击登陆按钮
     那么 进入admin页面
     并且 退出登陆
-    那么 返回登陆页面
+    那么 返回登陆页面"http://admin.rongzi.com/User/Login"
 
   @admin_userinfo_search
   场景: admin用户信息页面
