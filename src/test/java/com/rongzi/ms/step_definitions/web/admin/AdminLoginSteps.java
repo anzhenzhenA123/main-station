@@ -21,7 +21,7 @@ public class AdminLoginSteps extends StepDefs {
     public void 输入登录信息() throws Throwable {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         PageFactory.initElements(driver, AdminLoginPage.class);
-        AdminLoginPage.user_name.sendKeys("CS6927");
+        AdminLoginPage.user_name.sendKeys("superadmin");
         AdminLoginPage.password.sendKeys("123456");
     }
 
