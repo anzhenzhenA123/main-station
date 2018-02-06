@@ -45,6 +45,9 @@ public class AdminCusrequireSteps extends StepDefs {
        AdminCustomRequirePage.call_btn.click();
        wait.until(ExpectedConditions.visibilityOf(AdminCustomRequirePage.dialog_box));
        wait.until(ExpectedConditions.elementToBeClickable(AdminCustomRequirePage.dial)).click();
+       if(AdminCustomRequirePage.dialog_box.isDisplayed()){
+           AdminCustomRequirePage.close_btn.click();
+       }
        Thread.sleep(1000 * 2);
    }
 
