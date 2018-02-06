@@ -22,7 +22,7 @@
     "timeout": 30000,
     "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
     "url": "http://10.40.3.241:4723/wd/hub",
-    "host": "10.51.1.62",
+    "host": "10.51.0.222",
     "port": 4723,
     "maxSession": 1,
     "register": true,

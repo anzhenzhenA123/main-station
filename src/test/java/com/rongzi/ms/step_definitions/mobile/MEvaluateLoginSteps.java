@@ -16,8 +16,9 @@ public class MEvaluateLoginSteps extends StepDefs {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
         wait.until(ExpectedConditions.elementToBeClickable(MEvaluateLoginPage.loan_money)).click();
-        Thread.sleep(3 * 1000);
-        wait.until(ExpectedConditions.elementToBeClickable(MEvaluateLoginPage.money)).click();
+        PageFactory.initElements(driver,MEvaluateLoginPage.MoneyPage.class);
+
+        wait.until(ExpectedConditions.elementToBeClickable(MEvaluateLoginPage.MoneyPage.money)).click();
         wait.until(ExpectedConditions.visibilityOf(MEvaluateLoginPage.username)).sendKeys("li");
         wait.until(ExpectedConditions.visibilityOf(MEvaluateLoginPage.cell_Phone)).sendKeys("18321950423");
         wait.until(ExpectedConditions.visibilityOf(MEvaluateLoginPage.imgCode)).sendKeys("1234");

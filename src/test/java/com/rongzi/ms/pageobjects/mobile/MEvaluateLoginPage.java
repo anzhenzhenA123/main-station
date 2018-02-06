@@ -13,11 +13,8 @@ public class MEvaluateLoginPage extends BaseClass {
 		super(driver);
 	}
 
-	@FindBy(how=How.XPATH, using="//*[@id=\"userNeedMoney\"]")
+	@FindBy(how=How.XPATH, using="//*[@id=\"showMoneyBox\"]")
 	public static WebElement loan_money;
-
-	@FindBy(how=How.XPATH, using="//*[@id=\"modelli10\"]")
-	public static WebElement money;
 
 	@FindBy(how=How.XPATH, using="//*[@id=\"userName\"]")
 	public static WebElement username;
@@ -34,5 +31,13 @@ public class MEvaluateLoginPage extends BaseClass {
 	@FindBy(how=How.XPATH, using="//*[@id=\"inputSmsCode\"]")
 	public static WebElement SmsCode;
 
+	public static class MoneyPage {
 
+
+
+		@FindBy(how=How.XPATH, using="//*[@id=\"modelli10\"]")
+		public static WebElement money;
+
+
+	}
 }
