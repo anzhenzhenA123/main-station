@@ -17,7 +17,7 @@
     同时 单击登陆按钮
     那么 进入admin页面
     并且 退出登陆
-    那么 返回登陆页面
+    那么 返回登陆页面"http://admin.rongzi.com/User/Login"
 
   @admin_userinfo_search
   场景: admin用户信息页面
@@ -96,6 +96,17 @@
     并且 清空搜索栏并输入用户名
     同时 单击搜索进行权限管理查询
     那么 在查询结果列表单击编辑按钮
+
+  @admin_market_config_role_assignment
+  场景: admin权限管理下角色分配页面新增角色
+    假如 我admin登陆页"http://admin.rongzi.com"
+    并且 输入登录信息
+    同时 单击登陆按钮
+    那么 进入admin页面
+    并且 点击权限管理下角色分配
+    那么 进入角色分配页面
+    并且 点击新增角色按钮
+    那么 出现新增角色弹窗并输入信息提交
 
   @admin_system_manager_modify_password
   场景: admin系统管理下修改密码

@@ -48,6 +48,9 @@ public class AdminPage extends BaseClass {
     @FindBy(how=How.XPATH, using="//*[@href=\"/Admin/PermissionManage\"]")
     public static WebElement permission_allocat;
 
+    @FindBy(how=How.XPATH, using="//*[@href=\"/user/Role\"]")
+    public static WebElement role_assignment;
+
     @FindBy(how=How.XPATH, using="//ul[@class=\"ul-menu\"]/li[6]/a/i[2]")
     public static WebElement system_manager;
 
