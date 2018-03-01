@@ -31,10 +31,10 @@ public class RongziPage extends BaseClass {
 	public static WebElement easyLoan;
 
 
-	@FindBy(how=How.XPATH, using="//a[@href=\"http://gl.rongzi.com/\"]")
+	@FindBy(how=How.XPATH, using="/html/body/section[1]/div/ul/li[6]/a")
 	public static WebElement strategy;
 
-	@FindBy(how=How.XPATH, using="//a[@href=\"http://shanghai.rongzi.com/product/\"]")
+	@FindBy(how=How.XPATH, using="/html/body/section[1]/div/ul/li[3]/a")
 	public static WebElement loan_product;
 
 	@FindBy(how=How.XPATH, using="/html/body/section[13]/div[1]/div[1]/div[1]/ul/li[1]/a")
